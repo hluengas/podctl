@@ -31,4 +31,4 @@ podctl start /path/to/pod/definition.yaml
 podctl [-s/--system] <start / stop / enable / disable> <path/to/pod/definition.yaml>
 ```
 
-If --system flag is provided the pod will be run rootful, otherwise by default it will be rootless.
+If `--system` flag is provided the pod will be run rootful, otherwise by default it will be rootless.
